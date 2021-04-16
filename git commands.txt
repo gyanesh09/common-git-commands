@@ -1,0 +1,81 @@
+git init 
+
+git add file_name (for commiting only specific modified file) 
+
+git add . 
+
+ls -la to enlist files 
+
+git -m commmit "ver_name" 
+
+git log 
+
+git reset head <file> (to bring file to unstaged from staged) 
+
+git checkout <filename>(undelete cmmnd) 
+
+git rm <file_name> (to delete file) 
+
+git add --all (kind of super push) 
+
+git checkout <hashcode> (to make another branch(alternate reality)) 
+
+git branch (enlist all branches) 
+
+git checkout  <branch_name> (to switch b/w branches) 
+
+git branch <new_branchname> <hashcode_old_branch> (to rename old branch) 
+
+git branch <new_branch> (to create new branch) 
+
+git merge <another_branch_name> (to merge 2 branches) 
+
+git branch -m <old_br_name> <new_br_name> (to rename branch) 
+
+git branch -D <br_name> (to dlt branch) 
+
+Git clone < github repo link > (for cloning master branch of repo) 
+
+git clone --mirror <github repo link> (to clone all branches of repository) 
+
+git help (for getting help regarding each command of git) 
+
+rm-rf .git (to remove git repository (danger)) 
+
+git diff (for comparing staging area with pwd) 
+
+git diff –staged(for comparing staged files with previous commit) 
+
+git commit –a –m “direct commit” (for commiting directly  all tracked files) 
+
+git rm –cached <file_name> (to prevent git from tracking a file) 
+
+git log –stat(log with short summary of changes) 
+
+git log –p (for displaying log with differences) 
+
+git log --pretty=short (for short and easy to read log summary) 
+
+git restore <file> (to bring file to unstaged env from staged) 
+
+git checkout –f (to undo all the changes in repo to last commit state) 
+
+git push –u origin master (for pushing git repo to github from gitbash) 
+
+git remote add <remote_name> <git repo url as on github> (for connecting gitbash with github repo) 
+
+git config –global alias.ci <cmd name> (for setting  alias for existing command) 
+
+git push origin <branch_name> (for pushing specific branch on github repo) 
+
+ 
+
+Git files are stored in .git directory which is hidden by default, it is used to manage all git tasks 
+
+Head pointer points to the tip of current branch in repo 
+
+.gitignore file (to make git not track specific files) 
+
+Ssh key is required for using remote so that only authentic devices can do push and pull request. 
+
+ 
